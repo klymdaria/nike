@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nike</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<div class="ba-container">
+
+		<header class="ba-header">
+			<div class="ba-header-bar">
+				<a class="ba-logo" href="index.html">
+					<img src="img/logo.png" alt="Nike">
+				</a>
+
+				<nav>
+					<ul class="ba-menu">
+
+						<li><a class="ba-menu__part" href="#">Lifestyle </a></li>
+						<li><a class="ba-menu__part" href="#">Running </a></li>
+						<li><a class="ba-menu__part" href="#">Football</a></li>
+						<li><a class="ba-menu__part" href="#">Skateboarding </a></li>
+						<li><a class="ba-menu__part ba-menu__part--burger" href="#"><img src="img/btnmenu.png" alt="burger"></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="ba-shoes">
+			<div class="ba-row">
+				<div class="ba-col-8 ba-photo">
+					<img class="ba-photo__nike" src="img/bg_title.png" alt="Nike-shoe">
+					<a class="ba-photo__add" href="#"><img src="img/btn_add.png" alt="btn add"></a>
+					<img class="ba-photo__all" src="img/img.png" alt="All photos of shoes">
+				</div>
+				<div class="ba-col-4 ba-description-shoe">
+					<img class="ba-description-shoe__close" src="img/btn_close.png" alt="btn close">
+					<h2 class="ba-description-shoe-tagline ba-description-shoe-tagline--special">
+						The <span class="ba-description-shoe-tagline--color">running</span> has just begun
+					</h2>
+					<h3 class="ba-description-shoe__model">
+						Huarache
+						<img class="ba-description-shoe__stars" src="img/star.png" alt="Stars">
+					</h3>
+
+					<h4 class="ba-description-shoe__price">
+						$ 200
+					</h4>
+					<form class="ba-form" action="form.php" method="GET">
+						<h3 class="ba-form__name-form">Size</h3>
+						<label class="ba-form-part">
+							<input class="ba-form-part__radio" type="radio" name="size" value="7" checked>
+							<span class="ba-form-part__number">7</span></label>
+						<label class="ba-form-part">
+							<input class="ba-form-part__radio" type="radio" name="size" value="8" checked>
+							<span class="ba-form-part__number">8</span>
+						</label>
+						<label class="ba-form-part">
+							<input class="ba-form-part__radio" type="radio" name="size" value="9" checked>
+							<span class="ba-form-part__number">9</span>
+						</label>
+						<label class="ba-form-part">
+							<input class="ba-form-part__radio" type="radio" name="size" value="10" checked>
+							<span class="ba-form-part__number">10</span>
+						</label>
+
+						<label class="ba-form-part">
+							<input class="ba-form-part__radio" type="radio" name="size" value="11" checked>
+							<span class="ba-form-part__number ba-form-part__number--select11">11</span>
+						</label>
+						<button class="ba-form__button-add" name="submit">
+							<span>add to cart</span>
+						</button>
+						<button class="ba-form__button-wish" name="submit_wish">
+							<span>WISHLIST</span>
+						</button>
+					</form>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+</body>
+
+</html>
